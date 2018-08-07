@@ -1,0 +1,23 @@
+.centerLink{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    transform: translate(-115px,-8px);
+}
+.outer{
+    width: 537px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    display: flex;
+    color: #88c590;
+    vertical-align: middle;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.link:hover{
+    cursor: pointer;
+}

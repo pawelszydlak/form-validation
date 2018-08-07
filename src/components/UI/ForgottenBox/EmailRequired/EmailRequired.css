@@ -1,0 +1,107 @@
+.email{
+    margin-bottom: 20px;
+}
+
+.requirement > input {
+    width: 515px;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px solid #7d7d7d;
+    box-shadow:inset 0 0 5px 1px lightgray;
+    padding-left: 20px;
+    color: #acacac;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color: rgba(211, 211, 211, 0.50);
+ }
+ 
+ .requirement > input:focus {
+    outline: none;
+    background-color: #f9f9f9;
+ }
+ 
+ .requirement {
+    position: relative;
+    overflow:hidden;
+    display: inline-block;
+    border-radius: 6px;
+ }
+
+ .requirement:after {
+    content: "";
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 0; 
+    height: 0; 
+    display: block;
+    border-left: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    border-top: 35px solid #88c590;
+    z-index:0;
+    
+ }
+ .requirement p{
+   position: absolute;
+   right: 5px;
+   top: -20px;
+   color:white;
+   z-index:1;
+   margin:0;
+   padding:0;
+ }
+ 
+ .inputLabel { 
+   display:block;
+   margin-bottom: 10px;
+ }
+
+ .requirement:hover{
+    cursor: pointer;
+ }
+
+ .tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #88c590;
+ }
+ .tooltip .tooltipContent {
+    visibility: hidden;
+    width: 100px;
+    background-color: #88c590;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 100;
+    bottom: 20px;
+    left: -8px;
+    margin-left: -50px;
+ }
+
+ .tooltip .tooltipContent::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #88c590 transparent transparent transparent;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip:hover .tooltipContent {
+    visibility: visible;
+    opacity: 1;
+}
+
+.emailInputNegative > input{
+    border: 1px solid #cc0849;
+}
+
+.emailLabelNegative{
+    color: #cc0849;
+}

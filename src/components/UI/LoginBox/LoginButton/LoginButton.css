@@ -1,0 +1,35 @@
+.center {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    transform: translate(0,23px);
+}
+.outer {
+    width: 537px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login {
+    background-color: #f9f9f9;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #acacac;
+    padding: 12px 25px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-bottom: 0;
+    margin-left: auto;
+
+}
+
+.login:hover {
+    background-color: #88c590;
+    color: white;
+    cursor: pointer;
+}
+
+.login:active{
+    background-color: #44af53;
+}

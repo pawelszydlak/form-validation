@@ -1,0 +1,15 @@
+.emailMessage {
+    position: absolute;
+    color: #cc0849;
+    top: 50%;
+    left: 50%;
+    transform: translate(100px, -55px);
+}
+
+.passwordMessage{
+    position: absolute;
+    color: #cc0849;
+    top: 50%;
+    left: 50%;
+    transform: translate(136px, 47px);
+}
